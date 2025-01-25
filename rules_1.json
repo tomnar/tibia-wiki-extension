@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "*",
+      "initiatorDomains": ["tibia.fandom.com"],
+      "excludedRequestDomains": ["tibia.fandom.com", "static.wikia.nocookie.net"]
+    }
+  }
+]

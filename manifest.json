@@ -1,0 +1,17 @@
+{
+  "name": "Tibia Wiki Domain Blocker",
+  "description": "Blocks all network communication to external domains on Tibia Fandom pages.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["declarativeNetRequest", "declarativeNetRequestFeedback"],
+  "host_permissions": ["https://tibia.fandom.com/*"],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules_1.json"
+      }
+    ]
+  }
+}
