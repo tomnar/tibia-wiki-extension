@@ -6,7 +6,7 @@
     "condition": {
       "urlFilter": "*",
       "initiatorDomains": ["tibia.fandom.com"],
-      "excludedRequestDomains": ["tibia.fandom.com", "static.wikia.nocookie.net"]
+      "excludedRequestDomains": ["tibia.fandom.com", "static.wikia.nocookie.net", "tibiamaps.github.io"]
     }
   }
 ]
